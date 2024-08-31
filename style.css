@@ -1,0 +1,412 @@
+.in{
+    text-align: center;
+}
+.what{
+    text-align: center;
+}
+.img1{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img1.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img1:hover {
+    background-image: url(
+"./img11.png");
+top: -10px;
+position: relative;
+bottom: 20px;
+top: -10px;
+transition: top ease 0.3s;
+.cookie{
+    opacity: 0.6;
+}
+}
+.img2{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img2.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out ;
+    position: relative;
+    top: 0;
+}
+
+.img2:hover {
+    background-image: url(
+"./img22.png");
+top: -10px;
+transition: top ease 0.3s;
+.sbrisolotto{
+    opacity: 0.6;
+}
+
+}
+.img3{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img3.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img3:hover {
+    background-image: url(
+"./img33.png");
+top: -10px;
+transition: top ease 0.3s;
+.shortbread{
+    opacity: 0.6;
+}
+}
+.img4{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img4.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img4:hover {
+    background-image: url(
+"./img44.png");
+top: -10px;
+transition: top ease 0.3s;
+.muscovado{
+    opacity: 0.6;
+}
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.img5{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img5.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img5:hover {
+    background-image: url(
+"./img55.png");
+top: -10px;
+transition: top ease 0.3s;
+.orange{
+    opacity: 0.6;
+}
+}
+.img6{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img6.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img6:hover {
+    background-image: url(
+"./img66.png");
+top: -10px;
+transition: top ease 0.3s;
+.gocciolato{
+    opacity: 0.6;
+}
+}
+.img7{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img7.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.img7:hover {
+    background-image: url(
+"./img77.png");
+top: -10px;
+transition: top ease 0.3s;
+.chocolate{
+    opacity: 0.6;
+}
+}
+.images{
+    position: relative;
+    left: 160px;
+    display: flex;
+}
+.img8{
+    width: 255px;
+    height: 260px;
+    margin: 50px;
+    background-image: url(
+"./img8.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+    position: relative;
+    top: 0;
+    left: 500px;
+}
+
+.img8:hover {
+    background-image: url(
+"./img88.png");
+top: -10px;
+transition: top ease 0.3s;
+.lemon{
+    opacity: 0.6;
+}
+}
+.hr{
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+.cookie{
+    position: relative;
+    left: 90px;
+    top: 260px;
+}
+.cookie:hover{
+    opacity: 0.6;
+  max-width: 100%;
+  max-height:400% ;
+  
+
+    
+}
+
+
+.cookiecost{
+    position: relative;
+    top:260px;
+    left: 60px;
+
+}
+.cookieadd{
+    position: relative;
+    top:215px;
+    left: 150px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+
+}
+.cookieadd:hover{
+    background-color: black;
+    color: white;
+}
+.sbrisolotto{
+    position: relative;
+    left: 90px;
+    top: 260px;
+}
+.sbrisolottocost{
+    position: relative;
+    top:260px;
+    left: 60px;
+
+}
+.sbrisolottoadd{
+    position: relative;
+    top:215px;
+    left: 150px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.sbrisolottoadd:hover{
+    background-color: black;
+    color: white;
+}
+.shortbread{
+    position: relative;
+    left: 90px;
+    top: 260px;
+}
+.shortbreadcost{
+    position: relative;
+    top:260px;
+    left: 60px;
+
+}
+.shortbreadadd{
+    position: relative;
+    top:215px;
+    left: 150px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+
+
+}
+.shortbreadadd:hover{
+    background-color: black;
+    color: white;
+}
+.muscovado{
+    position: relative;
+    left: 50px;
+    top: 260px;
+}
+.muscovadocost{
+    position: relative;
+    top:260px;
+    left: 60px;
+
+}
+.muscovadoadd{
+    position: relative;
+    top:215px;
+    left: 200px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.muscovadoadd:hover{
+    background-color: black;
+    color: white;
+}
+.orange{
+    position: relative;
+    left: 30px;
+    top: 260px;
+}
+.orangecost{
+    position: relative;
+    top:260px;
+    left: 30px;
+
+}
+.orangeadd{
+    position: relative;
+    top:215px;
+    left: 130px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+
+
+}
+.orangeadd:hover{
+    background-color: black;
+    color: white;
+}
+.gocciolato{
+    position: relative;
+    left: 50px;
+    top: 260px;
+}
+.gocciolatocost{
+    position: relative;
+    top:260px;
+    left: 30px;
+
+}
+.gocciolatoadd{
+    position: relative;
+    top:215px;
+    left: 130px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.gocciolatoadd:hover{
+    background-color: black;
+    color: white;
+}
+.chocolate{
+    position: relative;
+    left: 80px;
+    top: 260px;
+}
+.chocolatecost{
+    position: relative;
+    top:260px;
+    left: 60px;
+
+}
+.chocolateadd{
+    position: relative;
+    top:215px;
+    left: 150px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+
+
+}
+.chocolateadd:hover{
+    background-color: black;
+    color: white;
+}
+.lemon{
+    position: relative;
+    left: 80px;
+    top: 280px;
+}
+.lemoncost{
+    position: relative;
+    top:280px;
+    left: 60px;
+
+}
+.lemonadd{
+    position: relative;
+    top:240px;
+    left: 150px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 30px;
+    padding: 8px;
+    
+
+
+}
+.lemonadd:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
